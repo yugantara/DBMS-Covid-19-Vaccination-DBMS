@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Add Entry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/candi.css">
+</head>
+
+<body>
+  <div>
+    <div class="title"><h1 class="head"> Vaccination Detail </h1></div>
+    <br>
+    <form name="add" action="http://localhost:8001" method="post" enctype="multipart/form-data">
+      <div class="candi-details">
+        <div class="input-box">
+          <span class="details">Unique Health ID:</span>
+          <input type="text" placeholder="Enter Unique Health ID" id="uhi" value="" required name="Unique_Health_ID">
+        </div>
+        <br>
+        <div class="input-box">
+          <span class="details">Name:</span>
+          <input type="text" placeholder="Enter Your Name" id="name" value="" name="Name">
+        </div>
+        <br>
+        <div class="input-box">
+          <span class="details">Date of Birth:</span>
+          <input type="date" id="dob" value="" required name="Date_of_Birth">
+        </div>
+        <br>
+        <div class="input-box">
+          <span class="details">Age:</span>
+          <input type="number" min="18" max="150" id="age" value="" placeholder="Enter Your Age" name="Age">
+        </div>
+        <br>
+      <div class="input-box">
+          <span class="details">Gender:</span>
+          <input type="text" placeholder="Male/Female/Other" id="Gender" value="" required name="Gender">
+        </div>
+        <br>
+        <div class="input-box">
+          <span class="details">Beneficiary Reference ID:</span>
+          <input type="number" placeholder="Enter Beneficiary Reference ID" id="bri" value="" required name="Beneficiary_Reference_ID">
+        </div>
+        <br>
+        <div class="input-box">
+          <span class="details">Vaccine Name:</span>
+          <input type="text" placeholder="Enter Vaccine Name" id="name" value="" name="Vaccine_Name">
+        </div>
+        <br>
+        <div class="input-box">
+          <span class="details">Dose Type:</span>
+          <input type="text" placeholder="First or Second" id="name" value="" name="Dose_Type">
+        </div>
+        </div>
+        <br>
+      <div class="button">
+        <input type="submit">
+      </div>
+    </div>
+    </form>
+  </div>
+</body>
+<html>
+
+<footer class="text-center mt-4 py-2">
+        <p>&copy 2021 Company, Inc. All rights reserved.<br>Database Management System</p>
+    </footer>
