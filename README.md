@@ -7,4 +7,4 @@ It is a Database Management System Project in which you can perform following op
 - Show particular entry
 
 These operations are performed using MySQL
-To show the proper implementation of each operation, a site is created.
+To show the proper implementation of each operation, a website is created using HTML, CSS, JavaScript.
